@@ -9,11 +9,6 @@ export default createAppContainer(
     {
       [screenIds.PLAY]: PlayScreen,
       [screenIds.HISTORY]: HistoryScreen
-    },
-    {
-      defaultNavigationOptions:{
-        header: null
-      }
     }
   )
 );
