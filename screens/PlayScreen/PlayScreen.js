@@ -74,6 +74,7 @@ const PlayScreen = (props) => {
     setNumLoseGame(0);
     setNumTotalGame(0);
     props.navigation.popToTop();
+    alert('Reset game successfully!');
   }
 
   const onNavigateToHistory = () => {
